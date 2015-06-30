@@ -1,0 +1,34 @@
+/*
+Theme Name: Twenty Fifteen Child Theme
+Theme URI: https://wordpress.org/themes/twentyfifteen
+Description: Child theme for duck races demo site for Net mag using the twentyfifteen default theme
+Author: the WordPress team & Kirsty Burgoine
+Author URI: https://wordpress.org/
+Template: twentyfifteen
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  twenty-fifteen-child
+*/
+
+@import url("../twentyfifteen/style.css");
+
+
+table {}
+
+tr.detail { cursor: pointer;}
+tr.detail:hover { background-color: #ececec; }
+
+.pic { width: 10%; vertical-align: middle; }
+
+.pic img { vertical-align: middle; }
+
+.name { width: 30%; }
+.odds { width: 20%; text-align: center; }
+.money { width: 20%; text-align: center; }
+.winnings { width: 20%; text-align: center; }
+
+.form { display: none; }
+
+input[type="text"]{ width: 65px; margin-left: 10px; }
