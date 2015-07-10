@@ -78,7 +78,7 @@ $date = DateTime::createFromFormat('Ymd', get_field('race_date'));
 								the_post_thumbnail('duck-thumb');
 							endif; ?></td>
 
-							<td class="name"><?php the_title(); ?></td>
+							<td class="name"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></td>
 							
 							<td data-duckodds="<?php echo $odds; ?>" id="theodds" class="theodds"><?php echo $odds; ?> / 1</td>
 							

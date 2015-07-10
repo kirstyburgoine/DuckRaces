@@ -16,9 +16,7 @@ get_header(); ?>
 
 			<header class="page-header">
 				<h1 class="page-title">Upcoming Races</h1>
-				<?php
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
+				<div class="taxonomy-description">All of the races in the season ordered by publish date.</div>
 				
 			</header><!-- .page-header -->
 

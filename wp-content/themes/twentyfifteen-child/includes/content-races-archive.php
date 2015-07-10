@@ -31,12 +31,7 @@ $date = DateTime::createFromFormat('Ymd', get_field('race_date'));
 		
 	</div><!-- .entry-content -->
 
-	<?php
-		// Author bio.
-		if ( is_single() && get_the_author_meta( 'description' ) ) :
-			get_template_part( 'author-bio' );
-		endif;
-	?>
+
 
 	<footer class="entry-footer">
 		
