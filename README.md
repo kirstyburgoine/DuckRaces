@@ -1,3 +1,2 @@
-# NetMag-DuckRacing
-# NetMag-DuckRacing
-# NetMag-DuckRacing
+Duck Racing Site for NetMag
+
